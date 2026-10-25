@@ -73,6 +73,7 @@ function App() {
                 <a className="button secondary" href={`${import.meta.env.BASE_URL}resume.pdf`} download>Download Résumé <span aria-hidden="true">↓</span></a>
                 <a className="button text-button" href="#contact">Contact</a>
                 <a className="button text-button" href={profile.githubUrl} target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a className="button text-button" href={profile.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn ↗</a>
               </div>
             </div>
             <div className="portrait-frame"><img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Portrait of Vrushali Alugade" /></div>
@@ -106,7 +107,7 @@ function App() {
           </div>
         </section>
         <section id="contact" className="contact-section">
-          <div className="container contact-box"><div><p className="eyebrow">Contact</p><h2>Let’s connect.</h2><p>Open to software development and AI application engineering opportunities.</p></div><div className="contact-links"><a href={`mailto:${profile.email}`}>{profile.email} ↗</a><a href={profile.githubUrl} target="_blank" rel="noreferrer">GitHub: {profile.username} ↗</a></div></div>
+          <div className="container contact-box"><div><p className="eyebrow">Contact</p><h2>Let’s connect.</h2><p>Open to software development and AI application engineering opportunities.</p></div><div className="contact-links"><a href={`mailto:${profile.email}`}>{profile.email} ↗</a><a href={profile.githubUrl} target="_blank" rel="noreferrer">GitHub: {profile.username} ↗</a><a href={profile.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn: {profile.name} ↗</a></div></div>
         </section>
       </main>
     </div>

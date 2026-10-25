@@ -47,6 +47,7 @@ export const profile = {
     'I build interfaces, application logic, and API integrations across enterprise software and research settings. My experience spans Salesforce delivery, frontend development at SAP, and applied AI work focused on agent tooling, research prototypes, and practical product experimentation.',
   email: 'vrush02cc@gmail.com',
   githubUrl: 'https://github.com/vrush0206',
+  linkedinUrl: 'https://www.linkedin.com/in/vrushali-alugade/',
   location: 'Kaiserslautern 67663, Germany',
   phone: '+49 1748433772',
 };

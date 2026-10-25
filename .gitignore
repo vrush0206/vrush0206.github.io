@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vite/
+reference/
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.DS_Store
+
+# Local credentials and environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key

@@ -109,7 +109,7 @@ export const projects: Project[] = [
     title: 'SysML to AAS Model Transformation',
     period: '10/2024 – 03/2025',
     type: 'Master’s thesis · DFKI Kaiserslautern',
-    problem: "A transformation workflow that converts SysML state-machine models into Asset Administration Shell (AAS) models and JSON representations.",
+    problem: "Support the creation of digital twins of assets by transforming SysML state-machine models into Asset Administration Shell (AAS) models and JSON representations.",
     contribution: [
       "Implemented ATL transformation rules with EMF/Ecore, then built a Python/FastAPI workflow to produce AAS JSON from the transformed models.",
       "Validated source models and tested generated outputs against IDTA specifications.",

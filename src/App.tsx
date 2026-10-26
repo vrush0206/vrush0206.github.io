@@ -72,8 +72,8 @@ function App() {
                 <a className="button accent" href="#projects" onClick={() => selectSection('projects')}>View Projects <span aria-hidden="true">↗</span></a>
                 <a className="button secondary" href={`${import.meta.env.BASE_URL}resume.pdf`} download>Download Résumé <span aria-hidden="true">↓</span></a>
                 <a className="button text-button" href="#contact">Contact</a>
-                <a className="button text-button" href={profile.githubUrl} target="_blank" rel="noreferrer">GitHub ↗</a>
-                <a className="button text-button" href={profile.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn ↗</a>
+                {/* <a className="button text-button" href={profile.githubUrl} target="_blank" rel="noreferrer">GitHub ↗</a>
+                <a className="button text-button" href={profile.linkedinUrl} target="_blank" rel="noreferrer">LinkedIn ↗</a> */}
               </div>
             </div>
             <div className="portrait-frame"><img src={`${import.meta.env.BASE_URL}profile.jpg`} alt="Portrait of Vrushali Alugade" /></div>

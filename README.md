@@ -95,14 +95,14 @@ No gh-pages branch or personal access token is required when using the GitHub Pa
 
 The portfolio uses the approved public résumé and portrait from the repository reference materials:
 
-- [reference/resume.pdf](reference/resume.pdf)
+- [reference/VrushaliAlugadeResume.pdf](reference/VrushaliAlugadeResume.pdf)
 - [reference/photo.PNG](reference/photo.PNG)
 
 These files were copied only into public assets for deployment, and the original reference folder remains excluded from git publish output.
 
 ## Content provenance and missing inputs
 
-`reference/resume.pdf` is authoritative. Achievement wording is retained; guided research and team outcomes are identified. MCP functionality retrieves relevant S/4HANA Cloud OData URLs through natural-language queries.
+`reference/VrushaliAlugadeResume.pdf` is authoritative. Achievement wording is retained; guided research and team outcomes are identified. MCP functionality retrieves relevant S/4HANA Cloud OData URLs through natural-language queries.
 
 - `reference/profile.jpg` is absent. The existing public portrait is byte-identical to `reference/photo.PNG`, with no facial edits.
 - User-provided Tableau links are displayed on the two earlier DIY projects. Repository/demo buttons remain omitted for projects without supplied public URLs.
